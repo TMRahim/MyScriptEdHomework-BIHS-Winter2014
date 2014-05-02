@@ -1,0 +1,23 @@
+.problem {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+
+label {
+	float:left;
+	margin-right: 20px;
+}
+
+button {
+	font-size: 18px;
+}
+
+.header {
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+.answer {
+	font-size: 18px;
+}
