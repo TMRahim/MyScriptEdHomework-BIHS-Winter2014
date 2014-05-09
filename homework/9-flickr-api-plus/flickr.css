@@ -1,0 +1,9 @@
+input, button, #search-section {
+  font-size: 20px;
+}
+
+#result-header {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
