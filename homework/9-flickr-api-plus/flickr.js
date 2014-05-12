@@ -21,12 +21,20 @@ $(document).ready(function() {
 	});
 
 	function processPictures(data) {
+	    
+	    console.log(data);
+	    
 		
 		$("#result-header").text("Photos:")
 
 		var firstPhoto = data.photos.photo[0];
+		var farmId = firstPhoto.farm;
+		var serverId = firstPhoto.server;
+		var photoId = firstPhoto.id;
+		var secretId = firstPhoto.secret;
+		
 		// http://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg
-		var imageUrl = "https://farm8.staticflickr.com/7356/14162121513_dd630921d9.jpg";
+		var imageUrl = "https://farm" + farmId + ".staticflickr.com/" + serverId + "/" + photoId + "_" + secretId + ".jpg";
 		var imageHtmlElement = "<img src='" + imageUrl + "' />";
 
 		$("#result-photos").append(imageHtmlElement);

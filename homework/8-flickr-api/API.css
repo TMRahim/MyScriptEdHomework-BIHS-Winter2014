@@ -1,0 +1,30 @@
+#result
+{
+ background-color:white;
+border:30px solid transparent;
+border-image: url('http://dc491.4shared.com/img/mtLcKc7w/s7/135ff0ca810/black_lace_photo_border.pngg');
+border-image-slice: 30;
+border-image-width: 1 1 1 1;
+border-image-outset: 0;
+border-image-repeat: round;
+  height:1000px;
+  width: 1250px;
+  margin: 10px auto;
+  overflow: auto;
+   border-style:solid;
+border-width:5px;	
+border-color:green;
+}
+
+#box
+{
+    border: 1px dotted green;
+    border-image: url('http://www.wpclipart.com/page_frames/floral/daisy_border.png');
+    border-color: red;
+}
+#search
+{
+    border: 1px  dashed blue ;
+     border-image: url('http://www.clipartbest.com/cliparts/LTK/eAy/LTKeAyBrc.png');
+     border-color:green;
+}
